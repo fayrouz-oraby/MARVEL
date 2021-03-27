@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+#CAPA{
+  padding: 30px;
+  text-align: center;
+  font-size: 9em;
+  font-family: "Copperplate",fantasy;
+
+}
+body{
+  background-image:url('https://wallpapercave.com/wp/aTkExyP.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.HULK{
+  float: left;
+  width: 100%;
+}
+.STEVE{
+  background-color: white;
+  opacity: 0.7;
+  filter: drop-shadow(8px 8px 10px gray);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+iframe{
+  filter: contrast(100%);
+}
+h2{
+  color: black;
+  font-family: "Lucida Console",monospace;
+
+}
+p{
+  color: black;
+  font-family:"Lucida Console",monospace;
+
+
+}
+.THOR {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.TONY:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 800px) {
+  .HULK, .THOR {
+    width: 100%;
+    padding: 0;
+  }
+}
+a{
+	color: black;
+	font-family: "Copperplate",fantasy;
+}
